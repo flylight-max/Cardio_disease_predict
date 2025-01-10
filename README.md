@@ -1,5 +1,8 @@
 # **Cardio_disease_predict**  
 
+Information taken from Kaggle
+(https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset)  
+
 Here is a dataset of 70000 rows and 14 cols. Our target variable is "cardio", which is a binary variable whether the patien has (1) or not (0) a cardiovascular disease.  
 There are 2 columns of indexes that will be of course removed.  
 Features:
@@ -19,3 +22,4 @@ Features:
 
     After preprocessing and feature engineering I will look for the best model classifier. I will look at KNN, logistic regression and Decision tree using scikit-learn package.  
 
+Note that for the ordered categorical variables (already switched to numerical), some do not correspond to the numbers presented here.  
